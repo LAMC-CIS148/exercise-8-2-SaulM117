@@ -40,7 +40,7 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 3.75%; /* Changed to percentage */
+	padding: 0 3.75%;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -54,7 +54,7 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
-	width: 20%; /* Moved width declaration here */
+	width: 20%;
 }
 #nav_menu ul li a {
     display: block;
@@ -90,9 +90,9 @@ header img {
 
 /* the styles for the section */
 section {
-	width: 65%; /* Changed to percentage */
+	width: 65%;
 	float: right;
-	padding: 0 2.5% 20px 2.5%; /* Changed to percentage */
+	padding: 0 2.5% 20px 2.5%;
 }
 section h1 {
 	font-size: 150%;
@@ -134,15 +134,17 @@ article h3 {
 }
 article img {
 	float: right;
+	max-width: 100%;
+	height: auto;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
 
 /* the styles for the aside */
 aside {
-	width: 27%; /* Changed to percentage */
+	width: 27%;
 	float: right;
-	padding: 0 0 20px 2.5%; /* Changed to percentage */
+	padding: 0 0 20px 2.5%;
 }
 aside h2 {
 	color: #800000;
@@ -167,4 +169,8 @@ footer {
 footer p {
 	text-align: center;
 	color: white;
-	padding: 1
+	padding: 1em 0;
+}
+
+/* Media query to adjust layout for narrow browser windows */
+@media (max-width:
