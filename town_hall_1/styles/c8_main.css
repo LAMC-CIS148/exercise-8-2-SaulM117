@@ -134,7 +134,8 @@ article h3 {
 }
 article img {
 	float: right;
-	max-width: 100%;
+	max-width: 40%;
+	min-width: 150px;
 	height: auto;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
@@ -172,5 +173,4 @@ footer p {
 	padding: 1em 0;
 }
 
-/* Media query to adjust layout for narrow browser windows */
-@media (max-width:
+/* Media query to adjust layout for narrow
